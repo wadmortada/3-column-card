@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    background-color: white;
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-main {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-one  {
+    background-color: #E28525;
+    height: 300px;
+    width: 150px;
+    
+}
+
+.card-two {
+    background-color: #016972;
+    height: 300px;
+    width: 150px;
+}
+
+.card-there {
+    background-color: #00403F;
+    height: 300px;
+    width: 150px;
+}
+
+h1, p {
+    color: white;
+}
