@@ -27,23 +27,37 @@ body {
 
 .card-one  {
     background-color: #E28525;
-    height: 300px;
-    width: 150px;
-    
+    height: 350px;
+    width: 180px;    
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
 }
 
 .card-two {
     background-color: #016972;
-    height: 300px;
-    width: 150px;
+    height: 350px;
+    width: 180px;
 }
 
 .card-there {
     background-color: #00403F;
-    height: 300px;
-    width: 150px;
+    height: 350px;
+    width: 180px;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.frame {
+    padding: 2rem;
 }
 
 h1, p {
     color: white;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    border-radius: 5rem;
 }
